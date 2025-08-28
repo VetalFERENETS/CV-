@@ -2,9 +2,13 @@
   margin: 0;
   padding: 0;
 }
+@font-face {
+  font-family: 'Sugo-Pro';
+  src: url('fonts/Sugo-Pro-Classic-Regular-trial.ttf') format('truetype');
+}
 body {
-  font-family: Arial, sans-serif;
-  background: #f2f2f2;
+ font-family: "Sugo-Pro", sans-serif;
+      background: #ced9ff;
   color: #333;
   line-height: 1.6;
 }
@@ -30,11 +34,11 @@ body {
 }
 section {
   margin-bottom: 30px;
+
 }
 section h3 {
-  border-bottom: 2px solid #ddd;
-  padding-bottom: 5px;
-  margin-bottom: 15px;
+  padding-bottom: 2x;
+  margin-bottom: 5px;
   color: #444;
   font-size: 1.5em;
 }
@@ -43,7 +47,7 @@ section h3 {
 .education li,
 .skills li,
 .contact li {
-  margin-bottom: 10px;
+  margin-bottom: 13px;
 }
 .experience ul,
 .education ul,
@@ -53,9 +57,52 @@ section h3 {
   padding-left: 20px;
 }
 a {
-  color: #0066cc;
+  color: #0027af94;
   text-decoration: none;
 }
 a:hover {
   text-decoration: underline;
+}
+.imgg{
+  width:215px;
+  height: 215px;
+  border-radius: 25px;
+}
+.prof{
+  text-align: center;
+}
+.photo{
+  width: 340px;
+  height: 250px;
+   border-radius: 25px;
+border: 1px solid #cdcdcd;
+ box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+ transition: box-shadow 0.5s ease, transform 0.5s ease;
+      cursor: pointer;
+}
+.photo:hover{
+ box-shadow: 0 12px 24px rgba(0, 0, 0, 0.35);
+      transform: scale(1.03);
+}
+
+.pirsz{
+  display: flex;
+      justify-content: space-between;
+    align-items: center;
+}
+.persz{
+  display: flex;
+      justify-content: space-between;
+    align-items: center;
+}
+.zdie{
+  margin-top: 30px;
+}
+.underline {
+  width: 60px;
+  height: 2px;
+  background-color: #a6adb1;
+  margin: 0 auto;
+  transition: width 1s ease;
+  margin-bottom: 10px;
 }
