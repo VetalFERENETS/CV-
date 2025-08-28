@@ -2,9 +2,9 @@ document.addEventListener("DOMContentLoaded", () => {
   const observer = new IntersectionObserver((entries) => {
     entries.forEach(entry => {
       if (entry.isIntersecting) {
-        entry.target.querySelector('.underline').style.width = '660px';
+        entry.target.querySelector('.underline').style.width = '90%';
       } else {
-        entry.target.querySelector('.underline').style.width = '60px';
+        entry.target.querySelector('.underline').style.width = '10%';
       }
     });
   }, {
